@@ -147,9 +147,9 @@
 
   <!-- Centerpiece Domain Stage (Ad Astra Per Aspera • passwords.tysonmediagroup.org) -->
   <section class="tmg-editorial-stage">
-    <span class="editorial-tag">Ad Astra Per Aspera &bull; Official Staff Password Directory</span>
+    <span class="editorial-tag">Ad Astra Per Aspera &bull; Official TYSON Team Password Directory</span>
     <h1 class="domain-centerpiece-title brand-tmg-domain">passwords.tysonmediagroup.org</h1>
-    <p class="domain-centerpiece-sub">Stillness in Motion &bull; Unified Identity &amp; Staff Credential Access</p>
+    <p class="domain-centerpiece-sub">Stillness in Motion &bull; Unified Identity &amp; TYSON Team Credential Access</p>
   </section>
 
   <!-- =========================================================================
@@ -173,10 +173,10 @@
               <span class="tyson-white-badge" title="Verified TYSON Account">
                 <img src="/assets/tyson-white-badge.png" alt="TYSON">
               </span>
-              <span class="status-badge badge-team">TYSON Team &bull; Staff ID: 212</span>
+              <span class="status-badge badge-team">TYSON Team &bull; Team ID: 212</span>
             </div>
             <div class="identity-username brand-tmg-domain" id="liveUsername">a@tysonmediagroup.org</div>
-            <div class="identity-url"><span class="brand-tmg-domain">tysonmediagroup.org/a</span> &bull; Staff ID: 212</div>
+            <div class="identity-url"><span class="brand-tmg-domain">tysonmediagroup.org/a</span> &bull; Team ID: 212</div>
           </div>
         </div>
 
@@ -200,13 +200,13 @@
       <div style="margin-bottom: 1.4rem;">
         <img src="/assets/MyTYSONBanner.png" alt="MyTYSON" style="max-height: 48px; width: auto; margin: 0 auto; display: block; filter: drop-shadow(0 4px 14px rgba(255, 255, 255, 0.15));">
       </div>
-      <span class="editorial-tag" style="font-size: 0.85rem; color: #fca5a5;">Staff Clearance Required</span>
+      <span class="editorial-tag" style="font-size: 0.85rem; color: #fca5a5;">TYSON Team Clearance Required</span>
       <h2 class="card-title" style="font-size: 2rem; margin-bottom: 0.4rem;">Sign in with MyTYSON</h2>
       <p class="card-subtitle brand-tmg-domain" style="font-size: 1.15rem; margin-bottom: 1.8rem; color: var(--text-muted);">
         passwords.tysonmediagroup.org
       </p>
       <p style="font-size: 0.95rem; color: var(--text-body); margin-bottom: 2rem; line-height: 1.5;">
-        This directory is restricted to verified TYSON staff members. Access is authenticated exclusively through the centralized MyTYSON Single Sign-On service.
+        This directory is restricted to verified TYSON Team members. Access is authenticated exclusively through the centralized MyTYSON Single Sign-On service.
       </p>
 
       <!-- The ONLY option: Sign in with MyTYSON SSO -->
@@ -223,7 +223,7 @@
       <div class="card-header">
         <div>
           <h2 class="card-title">Google Account</h2>
-          <p class="card-subtitle">Official staff Google account credentials &bull; Staff ID: 212</p>
+          <p class="card-subtitle">Official TYSON Team Google account credentials &bull; Team ID: 212</p>
         </div>
         <span class="status-badge badge-official" style="background: rgba(66, 133, 244, 0.15); border-color: #4285f4; color: #93c5fd;">
           Google Workspace
@@ -237,8 +237,8 @@
         </div>
 
         <div class="form-group" style="margin-bottom: 0;">
-          <label class="form-label">Staff Member &amp; ID</label>
-          <input type="text" class="form-input" value="Ash French (Staff ID: 212)" readonly style="font-weight: 500;">
+          <label class="form-label">TYSON Team Member &amp; ID</label>
+          <input type="text" class="form-input" value="Ash French (Team ID: 212)" readonly style="font-weight: 500;">
         </div>
 
         <div class="form-group" style="margin-bottom: 0;">
@@ -254,7 +254,12 @@
           <div style="position: relative;">
             <input type="password" id="ashPasswordInput" class="form-input" value="tysonmediagroup212" readonly style="padding-right: 140px; font-weight: 600; letter-spacing: 0.15em; font-family: monospace, sans-serif; font-size: 1rem;">
             <div class="cred-pw-group">
-              <button type="button" class="btn" id="toggleAshPwBtn" title="Show / Hide">👁️</button>
+              <button type="button" class="btn" id="toggleAshPwBtn" title="Show / Hide Password" aria-label="Toggle password visibility">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </button>
               <button type="button" class="btn btn-primary" id="copyAshPwBtn">Copy</button>
             </div>
           </div>
@@ -263,7 +268,7 @@
 
       <div class="form-group" style="margin-bottom: 18px;">
         <label class="form-label">Account Notes</label>
-        <textarea class="form-input" rows="2" readonly style="resize: none; font-size: 0.9rem; color: var(--text-muted);">Official TYSON staff Google account for Ash French (Staff ID: 212). Primary workspace access for tysonmediagroup.org.</textarea>
+        <textarea class="form-input" rows="2" readonly style="resize: none; font-size: 0.9rem; color: var(--text-muted);">Official TYSON Team Google account for Ash French (Team ID: 212). Primary workspace access for tysonmediagroup.org.</textarea>
       </div>
 
       <div style="padding: 16px 20px; background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-subtle); border-radius: 12px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px;">
@@ -280,16 +285,16 @@
     </section>
 
     <!-- =======================================================================
-         VIEW 3: RESTRICTED ACCESS (Non-staff logged into MyTYSON)
+         VIEW 3: RESTRICTED ACCESS (Non-team member logged into MyTYSON)
          ======================================================================= -->
     <section class="card" id="restrictedNoticeSection" style="display: none; max-width: 540px; margin: 40px auto; text-align: center; padding: 2.8rem 2.2rem;">
       <span class="editorial-tag" style="color: #f87171;">Access Restricted</span>
-      <h2 class="card-title" style="margin-bottom: 0.5rem;">TYSON Staff Clearance Required</h2>
+      <h2 class="card-title" style="margin-bottom: 0.5rem;">TYSON Team Clearance Required</h2>
       <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 1.6rem; line-height: 1.5;">
-        You are signed into MyTYSON as <strong id="nonStaffUsernameText" style="color: #ffffff;">member</strong>, but passwords.tysonmediagroup.org requires verified TYSON staff clearance.
+        You are signed into MyTYSON as <strong id="nonStaffUsernameText" style="color: #ffffff;">member</strong>, but passwords.tysonmediagroup.org requires verified TYSON Team clearance.
       </p>
       <button type="button" class="btn btn-primary" id="switchAccountBtn" style="width: 100%;">
-        Sign in with Staff Account &rarr;
+        Sign in with TYSON Team Account &rarr;
       </button>
     </section>
 
@@ -297,14 +302,14 @@
 
   <!-- Toast Notification -->
   <div class="toast-msg" id="toastBox">
-    <span id="toastIcon">📋</span>
+    <span id="toastIcon">✓</span>
     <span id="toastText">Copied to clipboard</span>
   </div>
 
   <footer style="text-align: center; padding: 3rem 1.5rem; border-top: 1px solid var(--border-subtle); margin-top: auto;">
     <img src="/assets/MyTYSONBanner.png" alt="MyTYSON" class="footer-logo" style="max-height: 38px; width: auto; opacity: 0.85; margin-bottom: 10px;">
     <div class="brand-tmg-domain" style="font-size: 1.4rem; color: var(--text-white);">passwords.tysonmediagroup.org</div>
-    <div style="font-size: 0.84rem; color: var(--text-muted); margin-top: 6px;">Ad Astra Per Aspera &bull; Official Staff Password Directory &bull; Stillness in Motion</div>
+    <div style="font-size: 0.84rem; color: var(--text-muted); margin-top: 6px;">Ad Astra Per Aspera &bull; Official TYSON Team Password Directory &bull; Stillness in Motion</div>
   </footer>
 
   <script src="/mytyson-core.js"></script>
@@ -382,9 +387,9 @@
           return;
         }
 
-        // Validate TYSON Staff Clearance
-        var isStaff = core.isStaffMember(session);
-        if (!isStaff) {
+        // Validate TYSON Team Clearance
+        var isTeam = core.isStaffMember(session);
+        if (!isTeam) {
           unauthGate.style.display = 'none';
           ashStrip.style.display = 'none';
           ashVault.style.display = 'none';
@@ -403,7 +408,7 @@
           return;
         }
 
-        // Authenticated Staff Member
+        // Authenticated TYSON Team Member
         unauthGate.style.display = 'none';
         restricted.style.display = 'none';
         ashStrip.style.display = 'block';
@@ -416,11 +421,11 @@
         var staffId = session.staffId || (session.slug === 'a' ? '212' : '');
         var liveBadge = document.querySelector('#ashProfileStrip .status-badge');
         if (liveBadge) {
-          liveBadge.textContent = 'TYSON Team • Staff ID: ' + (staffId || '212');
+          liveBadge.textContent = 'TYSON Team • Team ID: ' + (staffId || '212');
         }
 
         if (topAuthBtn) {
-          topAuthBtn.textContent = 'Sign Out (' + (session.slug || 'Staff') + ')';
+          topAuthBtn.textContent = 'Sign Out (' + (session.slug || 'Team') + ')';
           topAuthBtn.href = '#';
           topAuthBtn.onclick = function (e) {
             e.preventDefault();
@@ -438,7 +443,7 @@
           navigator.clipboard.writeText(input.value).then(function () {
             copyEmailBtn.classList.add('copied');
             copyEmailBtn.textContent = 'Copied!';
-            showToast('Email copied to clipboard', '📋');
+            showToast('Email copied to clipboard', '✓');
             setTimeout(function () {
               copyEmailBtn.classList.remove('copied');
               copyEmailBtn.textContent = 'Copy';
@@ -455,7 +460,7 @@
           navigator.clipboard.writeText(input.value).then(function () {
             copyPwBtn.classList.add('copied');
             copyPwBtn.textContent = 'Copied!';
-            showToast('Password copied to clipboard', '🔐');
+            showToast('Password copied to clipboard', '✓');
             setTimeout(function () {
               copyPwBtn.classList.remove('copied');
               copyPwBtn.textContent = 'Copy';
@@ -464,7 +469,10 @@
         });
       }
 
-      // Toggle Password Visibility
+      // Toggle Password Visibility with clean modern vector SVGs
+      var EYE_SHOW_SVG = '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>';
+      var EYE_HIDE_SVG = '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line></svg>';
+
       var togglePwBtn = document.getElementById('toggleAshPwBtn');
       if (togglePwBtn) {
         togglePwBtn.addEventListener('click', function () {
@@ -472,11 +480,13 @@
           if (input.type === 'password') {
             input.type = 'text';
             input.style.letterSpacing = 'normal';
-            togglePwBtn.textContent = '🔒';
+            togglePwBtn.innerHTML = EYE_HIDE_SVG;
+            togglePwBtn.title = 'Hide Password';
           } else {
             input.type = 'password';
             input.style.letterSpacing = '0.15em';
-            togglePwBtn.textContent = '👁️';
+            togglePwBtn.innerHTML = EYE_SHOW_SVG;
+            togglePwBtn.title = 'Show Password';
           }
         });
       }
@@ -487,7 +497,7 @@
         signOutBtn.addEventListener('click', function () {
           core.clearSession();
           checkSession();
-          showToast('Signed out', '🔒');
+          showToast('Signed out', '✓');
         });
       }
 
